@@ -8,10 +8,8 @@ source C:/ProgramData/anaconda3/Scripts/activate supabase_fastapi
 pip install -r requirements.txt
 
 
-
+## Run 
 uvicorn main:app --reload
-
-pip install supabase
 
 
 
@@ -27,9 +25,9 @@ create table employees (
 );
 
 ## URL Configuration
- ![Alt text](URL Configuration.png)
+ ![Alt text](URLConfiguration.png)
 ## Storage policies
- ![Alt text](Adding new policy to demo-bucket.png)
+ ![Alt text](AddingNewPolicyToDemo-bucket.png)
 ## For bucket we need to add this policy:
 (
   auth.role() = 'anon'
